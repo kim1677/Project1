@@ -37,6 +37,7 @@ void main() {
 	number[2] = 30;
 	number[3] = 40;
 	number[4] = 50;
+
 	printf("%d \n", number[4]);
 	for (int i = 0; i < sizeof(number) / sizeof(int); i++) {
 		printf("%d \n", number[i]);
