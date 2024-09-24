@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define size 3			// C언어 배열 지정 3
+#define size 3
 
 void main() {
 
@@ -17,6 +17,8 @@ void main() {
 	// const int size = 3;
 	// constexpr int a = 10;	// C++ 버전11 이상
 
+	// C언어 배열 지정 3
+	// 상단에 #define size 3 지정
 	int arr3[size];
 
 	// C언어 배열 초기화
