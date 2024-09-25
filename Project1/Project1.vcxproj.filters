@@ -36,5 +36,29 @@
     <ClCompile Include="pointer3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pointer4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="testPointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="testPointer2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="strPointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="variable.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

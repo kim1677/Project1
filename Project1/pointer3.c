@@ -1,7 +1,7 @@
 # include <stdio.h>
 
-typedef double d;
-typedef int(*pb)[2];	
+typedef double d;		// 타입 변경
+typedef int(*pb)[2];	// int 타입 변경
 
 pb make() {
 	static int b[2][2] = { {1,2}, {10,20} };
@@ -23,7 +23,7 @@ void main() {
 
 	// 다차원 배열 포인터
 	int a[2][3] = { {1,2,3},{4,5,6} };
-	int	(* p2)[3] = a;					// 괄호가 빠지면 포인터 배열이라 부름
+	int	(* p2)[3] = a;					// (* p2) 괄호가 빠지면 포인터 배열이라 부름
 	printf("%d \n", p2[0][0]);
 
 	// 지역변수 다차원 배열 포인터
